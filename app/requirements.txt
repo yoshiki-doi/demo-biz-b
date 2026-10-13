@@ -1,8 +1,12 @@
-Flask==2.0.1
-Werkzeug==2.0.1
-Jinja2==3.0.1
-MarkupSafe==2.0.1
-itsdangerous==2.0.1
-click==8.0.1
-requests==2.25.0
-PyYAML==5.3.1
+# Business b keeps its Python dependencies current, so the related code scanning alerts close.
+# The base image stays on the old bullseye release on purpose (OS package alerts remain open).
+Flask>=3.0.3
+Werkzeug>=3.0.6
+Jinja2>=3.1.6
+MarkupSafe>=2.1.5
+itsdangerous>=2.2.0
+click>=8.1.8
+requests>=2.32.4
+PyYAML>=6.0.2
+setuptools>=78.1.1
+wheel>=0.46.2
