@@ -9,9 +9,9 @@ jobs:
       contents: read
       packages: write
       security-events: write
-    uses: Qfour/demo-ci/.github/workflows/build-scan-push.yml@main
+    uses: yoshiki-doi/demo-ci/.github/workflows/build-scan-push.yml@main
     with:
-      image-name: ghcr.io/qfour/demo-biz-b
+      image-name: ghcr.io/yoshiki-doi/demo-biz-b
       stop-on-failed-policy-eval: false
       upload-sarif: true
     secrets:

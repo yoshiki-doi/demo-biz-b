@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/qfour/demo-biz-b:latest   # pushed by CI; scanned at runtime from the registry
+          image: ghcr.io/yoshiki-doi/demo-biz-b:latest   # pushed by CI; scanned at runtime from the registry
           imagePullPolicy: Always
           ports: [{containerPort: 8080}]
           env:
